@@ -1,0 +1,21 @@
+footer {
+  display: flex;
+  margin-top: 50px;
+  nav {
+    ul {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+    }
+  }
+  .footer-left {
+    p {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+  }
+  .social {
+    margin-left: 500px;
+    cursor: pointer;
+  }
+}
