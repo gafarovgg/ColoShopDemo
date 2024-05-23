@@ -1,0 +1,27 @@
+header {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    .left-header {
+      display: flex;
+      .shop {
+        color: #fea0a2;
+      }
+    }
+    .middle-header {
+      nav {
+        ul {
+          display: flex;
+          gap: 20px;
+          li {
+            a {
+              color: #000;
+            }
+          }
+        }
+      }
+    }
+  }
+}
